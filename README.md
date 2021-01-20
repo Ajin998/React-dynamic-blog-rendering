@@ -1,13 +1,50 @@
-# React Blog Rendering 
+# React Blog Rendering
+
+This project demonstrate how we can render different components in a single page instead of addding anchor tags for linking on different pages.
+using react routing concepts.
+
+## Technologies used
+
+1. React Js
+2. Git
+3. Bash
+4. Javascript
+5. HTML
+6. CSS(Cascading Style Sheets)
+
+## Instruction for starting the application
+
+1. To get started you have to clone this project in your local repository by typing :-
+   ```
+   $ git clone https://github.com/Ajin998/Blog-render-react.git
+   ```
+2. After cloning this project into your local repository install all the node dependencies by typing:-
+
+   ```
+   $ npm i | npm install
+   ```
+
+   <p align ="center">
+       <img src="https://user-images.githubusercontent.com/73870819/104467945-e3ec1c80-55dc-11eb-9883-5ef675a8f9b0.png" /></p>
+      <span align="center"> or </span>
+      <p align="center"> 
+       <img src="https://user-images.githubusercontent.com/73870819/104468379-64ab1880-55dd-11eb-9431-9a5e161ab749.png" />
+   </p>
+
+3. After installing all the node dependencies you will notice that a node modules and package-lock.json is automatically created in the root directory of your local repository.
+
+4. After that we are good to go to start our application by typing:-
+
+   ```
+   $ npm start
+
+   ```
+
+5. After that you will notice that your application is running at localhost 3000.
 
 ## Live Link:-
 
-
-
-
-
-
-
+https://react-dynamic-blog-rendering-rf8qfiv10.vercel.app/
 
 # Getting Started with Create React App
 
