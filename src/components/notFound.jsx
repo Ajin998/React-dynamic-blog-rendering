@@ -4,14 +4,14 @@ import styles from "./notFound.module.css";
 function notFound() {
   return (
     <div>
+      <Link to="/">
+        <button className={styles["btn"]}>Home</button>
+      </Link>
       <img
-        src="https://freefrontend.com/assets/img/html-funny-404-pages/Pure-CSS-404-Error-Page.png"
+        src="https://static.vecteezy.com/system/resources/previews/000/248/366/non_2x/error-404-unavailable-web-page-file-not-found-business-concept-vector.jpg"
         alt=""
         className={styles["image"]}
       ></img>
-      <Link to="/">
-        <button className={styles["btn"]}>Go back to Home</button>
-      </Link>
     </div>
   );
 }

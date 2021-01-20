@@ -1,12 +1,6 @@
-.not-found-container {
-    text-align: center;
-    width: 70%;
-    margin: auto;
-}
-
 .btn {
     border: none;
-    background-color: cornflowerblue;
+    background-color: #8A7CFB;
     color: white;
     padding: 15px;
     font-weight: bold;
@@ -17,7 +11,7 @@
     height: 100%;
 }
 
-@media(max-width: 800px) {
+@media(max-width: 910px) {
     .btn {
         padding: 2vw;
         font-size: 2vw;

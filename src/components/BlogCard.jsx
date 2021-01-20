@@ -14,7 +14,7 @@ class BlogCard extends Component {
         <h3>
           <Link
             className={styles["blog__title"]}
-            to={{ pathname: `blogs/${blog.id}`, state: { id: blog.id } }}
+            to={{ pathname: `blogs/${blog.id}` }}
           >
             {blog.title}
           </Link>
