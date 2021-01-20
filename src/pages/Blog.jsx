@@ -19,8 +19,7 @@ class Blog extends Component {
     if (this.state.blog !== undefined) {
       if (this.state.blog.id !== this.props.match.params.id) {
         let data = await fetchData(`${blogsUrl}/${this.props.match.params.id}`);
-        if (data.length) this.setState({ blog: data });
-        else this.setState({ status: "Unsuccessfull" });
+        this.setState({ blog: data });
       }
     }
   };

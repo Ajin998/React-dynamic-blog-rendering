@@ -72,7 +72,7 @@
 }
 
 @media (max-width: 600px) {
-  .blog__main {
+  .blog__page {
     flex-direction: column;
   }
 
