@@ -44,7 +44,7 @@ using react routing concepts.
 
 ## Live Link:-
 
-https://react-dynamic-blog-rendering-rf8qfiv10.vercel.app/
+https://react-dynamic-blog-rendering-899bmuow1.vercel.app/
 
 # Getting Started with Create React App
 
