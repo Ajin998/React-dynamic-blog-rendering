@@ -9,7 +9,7 @@ class Render extends Component {
       <Router>
         <Switch>
           <Route path="/" exact component={Home} />
-          <Route path="/blogs/:id" exact component={Blog} />
+          <Route path="/Blog/:id" exact component={Blog} />
           <Route component={notFound} />
         </Switch>
       </Router>

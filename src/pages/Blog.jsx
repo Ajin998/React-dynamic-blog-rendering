@@ -13,13 +13,13 @@ class Blog extends Component {
 
   componentDidMount = async () => {
     let data = await fetchData(`${blogsUrl}/${this.props.match.params.id}`);
-    this.setState({ blog: data, status: "Successfull" });
+    this.setState({ blog: data[0], status: "Successfull" });
   };
   componentDidUpdate = async () => {
     if (this.state.blog !== undefined) {
       if (this.state.blog.id !== this.props.match.params.id) {
         let data = await fetchData(`${blogsUrl}/${this.props.match.params.id}`);
-        this.setState({ blog: data });
+        this.setState({ blog: data[0], status: "Successfull" });
       }
     }
   };
@@ -30,8 +30,7 @@ class Blog extends Component {
   }
 
   render() {
-    let { imageUrl, author, title, content } = this.state.blog;
-
+    let { imageUrl, content, author, title } = this.state.blog;
     if (this.state.status === "Successfull") {
       return (
         <>
@@ -57,7 +56,7 @@ class Blog extends Component {
                     <div key={link.id}>
                       <Link
                         to={{
-                          pathname: `/blogs/${link.id}`,
+                          pathname: `/Blog/${link.id}`,
                         }}
                       >
                         <p

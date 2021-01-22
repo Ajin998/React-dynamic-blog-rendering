@@ -1,4 +1,4 @@
-export const blogsUrl = "https://heroku-json-data-server.herokuapp.com/blogs";
+export const blogsUrl = "https://blog-backend-api-server.herokuapp.com/Blog";
 // export const blogsUrl =
 //   "https://niravkpatel28.github.io/json-data-server/blogs/blogs.json";
 
